@@ -1,0 +1,99 @@
+.price-section {
+	 background: rgba(245, 245, 245, 1);
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
+}
+
+.title {
+	text-transform: uppercase;
+	font-family: Raleway;
+font-size: 36px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+color: #212121;
+margin-bottom: 34px;
+}
+
+.line {
+	width: 64px;
+	height: 2px;
+	background-color: #E72424;
+	margin: auto;
+	margin-bottom: 34px;
+} 
+
+.title-text {
+	text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+color: #86878B;
+margin-bottom: 62px;
+}
+
+.wrap {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 0 -15px;
+}
+
+.prace-list {
+	margin: 0 15px;
+	width: 340px;
+	border: none;
+}
+.tarif {
+	line-height: 50px;
+	background: #333333;
+	margin-bottom: 2px;
+}
+.tarif p{
+	text-align: center;
+	font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+color: #FFFFFF;
+}
+.price {
+	line-height: 100px;
+	background: #333333;
+	margin-bottom: 2px;
+}
+.price p{
+	text-align: center;
+	font-family: Raleway;
+font-size: 35px;
+font-weight: 700;
+color: #FFFFFF;
+}
+.item {
+	line-height: 50px;
+	background: #333333;
+	margin-bottom: 4px;
+}
+.item p{
+	font-family: Open Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF80;
+}
+.item-volume {
+	line-height: 40px;
+	background: #FFFFFF;
+	margin-bottom: 4px;
+	
+}
+.item-volume p{
+	font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+color: #86878B;
+}
