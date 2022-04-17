@@ -1,99 +1,59 @@
-.price-section {
-	 background: rgba(245, 245, 245, 1);
-	 background-repeat: no-repeat;
-	 background-position: center;
-	 background-size: cover;
-}
-
-.title {
-	text-transform: uppercase;
-	font-family: Raleway;
-font-size: 36px;
-font-weight: 400;
-line-height: 42px;
-letter-spacing: 0em;
-text-align: center;
-color: #212121;
-margin-bottom: 34px;
-}
-
-.line {
-	width: 64px;
-	height: 2px;
-	background-color: #E72424;
-	margin: auto;
-	margin-bottom: 34px;
-} 
-
-.title-text {
+.pricing-text {
 	text-align: center;
-font-size: 14px;
-font-weight: 400;
-line-height: 19px;
-color: #86878B;
-margin-bottom: 62px;
+	color: #86878B;
 }
 
-.wrap {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	margin: 0 -15px;
+.pricing {
+	background: #F5F5F5;
+	padding: 80px 0;
+}
+.pricing-list-bg {
+	background: #333333;
+	color: #fff;
 }
 
-.prace-list {
-	margin: 0 15px;
+.pricing-list {
 	width: 340px;
-	border: none;
-}
-.tarif {
-	line-height: 50px;
-	background: #333333;
-	margin-bottom: 2px;
-}
-.tarif p{
 	text-align: center;
-	font-family: Open Sans;
-font-size: 20px;
-font-weight: 700;
-color: #FFFFFF;
+	margin: 0 15px;
+	transition: 0.5s;
 }
-.price {
+
+.pricing-list:hover {
+	box-shadow: 0 15px 5px rgba(0, 0, 0, 70%);
+	transform: translate(0, -20px);
+}
+.pricing-list li:hover {
+	box-shadow: 0 7px 2px rgba(0, 0, 0, 30%);
+	transform: translate(-5px, -10px);
+	cursor: pointer;
+}
+
+.pricing-list-tariff {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 2px;
+	line-height: 50px;
+}
+.pricing-list-cost {
+	font-size: 35px;
+	font-weight: 700;
+	margin-bottom: 2px;
 	line-height: 100px;
-	background: #333333;
-	margin-bottom: 2px;
 }
-.price p{
-	text-align: center;
-	font-family: Raleway;
-font-size: 35px;
-font-weight: 700;
-color: #FFFFFF;
-}
-.item {
+.pricing-list-suitables {
+	font-size: 14px;
+	color: #86878B;
 	line-height: 50px;
-	background: #333333;
 	margin-bottom: 4px;
 }
-.item p{
-	font-family: Open Sans;
-font-size: 14px;
-font-weight: 600;
-line-height: 19px;
-text-align: center;
-color: #FFFFFF80;
-}
-.item-volume {
+.pricing-list-item {
+	font-size: 14px;
+	color: #86878B;
+	background: #fff;
+	margin-bottom: 4px;
 	line-height: 40px;
-	background: #FFFFFF;
-	margin-bottom: 4px;
-	
 }
-.item-volume p{
-	font-family: Open Sans;
-font-size: 14px;
-font-weight: 400;
-letter-spacing: 0em;
-text-align: center;
-color: #86878B;
+.pricing-list-item:last-child {
+	margin-bottom: 0px;
 }

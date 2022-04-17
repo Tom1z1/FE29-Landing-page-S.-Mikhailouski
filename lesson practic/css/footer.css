@@ -1,0 +1,28 @@
+.footer {
+	background-color: #000;
+	padding: 15px 0;
+}
+.footer-wrap {
+	width: 320px;
+	margin: 0 auto;
+}
+.footer-list {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: stretch;
+	margin-bottom: 10px;
+}
+.footer-list-item a {
+	font-size: 18px;
+	color: #86878B;
+	transition: 0.8s;
+}
+.footer-list-item a:hover {
+	transform: rotate(3turn) scale(3.3);
+	color: rgb(157, 17, 19);
+}
+.footer-text p{
+	text-align: center;
+	font-size: 12px;
+}

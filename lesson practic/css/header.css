@@ -1,0 +1,46 @@
+.header {
+	background-color: #000;
+}
+.header-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-logo {
+	display: flex;
+	align-items: center;
+	font-size: 35px;
+	color: #fff;
+}
+.header-logo span {
+	color: #fff;
+}
+.header-logo a::after {
+	content: 'IT';
+	color: coral;
+}
+.nav {
+	width: 500px;
+}
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.nav-list-item {
+	position: relative;
+	padding: 20px 0;
+	border-bottom: 3px solid transparent;
+	transition: 0.2s;
+}
+
+.nav-list-item:hover {
+	border-bottom: 3px solid coral;
+	color: rgb(11, 93, 137); 
+	cursor: pointer;
+}
+
+.nav-list-item-link {
+	color: rgba(255, 255, 255, 70%);
+	font-size: 15px;
+}
